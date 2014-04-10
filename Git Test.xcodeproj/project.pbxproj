@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361ABB2018F7363E00896F88 /* GPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 361ABB1F18F7363E00896F88 /* GPTest.m */; };
 		3696458118F72E7500334C46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3696458018F72E7500334C46 /* Foundation.framework */; };
 		3696458318F72E7500334C46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3696458218F72E7500334C46 /* CoreGraphics.framework */; };
 		3696458518F72E7500334C46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3696458418F72E7500334C46 /* UIKit.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		361ABB1E18F7363E00896F88 /* GPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTest.h; sourceTree = "<group>"; };
+		361ABB1F18F7363E00896F88 /* GPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTest.m; sourceTree = "<group>"; };
 		3696457D18F72E7500334C46 /* Git Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Git Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3696458018F72E7500334C46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3696458218F72E7500334C46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +122,8 @@
 				3696459618F72E7500334C46 /* GPViewController.m */,
 				3696459818F72E7500334C46 /* Images.xcassets */,
 				3696458718F72E7500334C46 /* Supporting Files */,
+				361ABB1E18F7363E00896F88 /* GPTest.h */,
+				361ABB1F18F7363E00896F88 /* GPTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				3696458D18F72E7500334C46 /* main.m in Sources */,
 				3696459718F72E7500334C46 /* GPViewController.m in Sources */,
+				361ABB2018F7363E00896F88 /* GPTest.m in Sources */,
 				3696459118F72E7500334C46 /* GPAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +467,7 @@
 				369645B118F72E7500334C46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		369645B218F72E7500334C46 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				369645B418F72E7500334C46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
